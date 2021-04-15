@@ -1,0 +1,13 @@
+redux
+
+Action : 상태 변화에 대해 알려주는 순수 자바 스크립트 객체
+{
+    type: "액션의 종류를 한번에 식별할 수 있는 문자열 혹은 심볼",
+    payload: "액션의 실행에 필요한 임의의 데이터",
+}
+
+Reducer : 상태와 액션을 가지고 함수를 실행하는 역할.
+            1. 이전 상태정보 2. 액션 객체 > 액션에 대한 함수 정의, 함수를 실행하여 상태 업데이트
+Dispatch : 액션을 실행, 액션을 인자로
+
+https://medium.com/@ca3rot/%EC%95%84%EB%A7%88-%EC%9D%B4%EA%B2%8C-%EC%A0%9C%EC%9D%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%89%AC%EC%9A%B8%EA%B1%B8%EC%9A%94-react-redux-%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%9D%98-%EC%9D%B4%ED%95%B4-1585e911a0a6
